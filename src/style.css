@@ -1,0 +1,394 @@
+.height{
+    height: 0vh;
+}
+.logincss{
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Numans', sans-serif;
+}
+#forgetpass{
+    padding-left: 19px;
+    color: #d4e8cb;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.signcss{
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.pexels.com/photos/193340/pexels-photo-193340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Numans', sans-serif;
+
+}
+
+.midd{
+    height: 93vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+background-size: cover;
+background-repeat: no-repeat;
+
+font-family: 'Numans', sans-serif;
+    
+}
+ .cardy{
+    background-image: url('https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 50vh;
+   width: 25vw;
+   margin: 4rem;
+   /* background:#fff; */
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    border-radius:10px;
+    transition:0.5s;
+
+}
+.cardy img{
+    width:120px;
+    height:120px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+    margin-bottom: 1rem;
+   
+}
+
+
+
+
+
+
+
+body {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background:#fbfbfb;
+}
+
+.cardy:hover {
+    box-shadow:0 30px 70px rgba(0,0,0,.2);
+}
+.cardy  ul li button {
+    font-family:sans-serif;
+    border-radius:20px;
+    background-color:#e91e63;
+    display:block;
+    color:#fff;
+    margin:0 10px;
+    font-size:20px;
+    transition:0.5s;
+    text-align:center;
+}
+
+.cardy  ul li {
+    list-style:none;
+    float:left;
+    margin-right: 30px;
+}
+
+.cardy ul li:hover button {
+    background-color: #fff;
+    color:#e91e63;
+    transform:rotateY(360deg);
+}
+
+.addnote{
+    /* background-image: url('https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+    background-color: #0077b6;
+    width: 30vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-formall{
+    padding-top: 1rem;
+    
+}
+.card-form{
+    
+       background: rgba(0,0,0,0.5) !important;
+       color: #fff;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       height: 23vh;
+       width: 20rem;
+        box-shadow:0 20px 50px rgba(0,0,0,.1);
+        border-radius:10px;
+        transition:0.5s;
+    
+
+}
+.user{
+    background-image: url('https://images.pexels.com/photos/301375/pexels-photo-301375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:44rem;
+}
+#userup{
+    background: rgba(0,0,0,0.5) !important; 
+    color:#fff ;
+}
+
+
+#deletebutton:hover + #deletepara {
+    cursor: pointer;
+    display: block;
+}
+#deletepara{
+    display: none;
+    
+}
+
+
+#formphoto{
+    border: 2px solid black;
+    box-shadow: 0 5px 20px #000;
+    border-radius: 10px;
+}
+
+.holecard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+    
+}
+.cardhome-body{
+    padding: 2vw;
+    width: 50vw;
+}
+.h1home{
+    text-align: center;
+    font-family: "Soleil_Medium",Helvetica,Arial,sans-serif;
+    font-size: 56px;
+    line-height: 72px;
+    margin-bottom: 20px;
+}
+.cardhome-text{
+    font-family: "Soleil",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    font-weight: normal;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.button-primary{
+    font-size: 16px;
+    min-width: 240px;
+    font-family: "Soleil_Bold",Helvetica,Arial,sans-serif;
+    background: #00a82d;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    line-height: 150%;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s background ease-in-out;
+}
+
+.holecard2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw;
+}
+#homeimg{
+    width: 45vw;
+   border-radius: 15px;
+}
+#homeimg1{
+    width: 45vw;
+   border-radius: 15px;
+}
+#homeimg2{
+    width: 45vw;
+   border-radius: 15px;
+}
+.h1home2{
+    text-align: center;
+    font-family: "Soleil_Medium",Helvetica,Arial,sans-serif;
+    font-size: 56px;
+    line-height: 72px;
+    margin-bottom: 20px;
+    color: #00a82d;
+}
+
+
+
+/* //footer */
+a:hover{
+    text-decoration:none;
+}
+.section-padding {
+	padding: 60px 0;
+}
+.bottom {
+    background-color: #0a1c2e;
+}
+.bottom .copyright {
+    color: #e5e5e5;
+    font-weight: 600;
+}
+.copyright a {
+    color: #f2ff49;
+    margin-left: 3px;
+    padding-right: 3px;
+}
+.bottom p {
+    margin-bottom: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.copyright p span {
+    color: #d1caca;
+}
+.bottom .copyright p, .bottom .copyright a:hover{
+    color: #6c6d83;
+}
+
+
+@media screen and (max-width:1168px){
+    .h1home{
+        
+        font-size: 35px;
+       
+    }
+    .holecard{
+        
+        flex-direction: column;
+    }
+   
+}
+
+@media screen and (max-width:840px){
+    
+    .midd{
+        flex-direction: column;
+        padding-top: 7vh;
+        
+    }
+    .cardy{
+        height: 27vh;
+        width: 40vw;
+        margin-top: 1rem;
+        
+    }
+    .cardy{
+        margin: 5px;
+    }
+    .holecard2{
+        flex-direction: column;
+    }
+    #homeimg2,#homeimg1,#homeimg{
+        width: 80vw;
+      
+    }
+    .button-primary{
+        font-size: 11px;
+        min-width: 170px;
+    }
+    .addnote{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width:650px){
+    .cardy {
+        height: 28vh;
+        width: 55vw;
+        margin-top: 1rem;
+        
+    }
+    .file{
+        width: 22vw;
+    }
+    .cardhome-text{
+        
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .h1home2{
+        font-size: 39px;
+        line-height: 44px;
+    }
+    #bt{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #btsin{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #savebutton{
+        margin-top: 6px; 
+    }
+    #btlog{
+        margin-top: 6px;
+    }
+    .bottom p {
+        
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .h1home{
+        
+        font-size: 30px;
+        line-height: 30px;
+        
+    }
+    .h1home2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width:380px){
+    .cardy{
+        height: 27vh;
+        width: 80vw;
+        margin-top: 1rem;
+        
+    }
+    .card-form{
+        width: 80vw;
+    }
+    .bottom p {
+       
+        font-size: 10px;
+        font-weight: 300;
+    }
+}
